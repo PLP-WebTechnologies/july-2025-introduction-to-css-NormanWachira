@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome! This is CSS trial zone.</h1>
+    </header>
+    <main>
+        <p>Your goal is to create a visually styled web page using only CSS. You will apply basic styling rules to text, backgrounds, and layout elements, and demonstrate an understanding of how the CSS Box Model affects spacing and sizing on the page.</p>
+        <section id="tables">
+        <h2>Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Software Development</th>
+                    <th>Web Development</th>
+                    <th>Machine Learning</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>C</td>
+                    <td>HTML</td>
+                    <td>Python</td>
+                </tr>
+
+                <tr>
+                    <td>C++</td>
+                    <td>CSS</td>
+                    <td>C++</td>
+                </tr>
+
+                <tr>
+                    <td>Java</td>
+                    <td>JavaScript</td>
+                    <td>Java</td>
+                </tr>
+
+                <tr>
+                    <td>C#</td>
+                    <td>PHP</td>
+                    <td>R</td>
+                </tr>
+                <tr>
+                    <td>Ruby</td>
+                    <td>XML</td>
+                    <td>Shell</td>
+                </tr>
+
+                <tr>
+                    <td>Swift</td>
+                    <td>React.js</td>
+                    <td>TypeScript</td>
+                </tr>
+
+                <tr>
+                    <td>Python</td>
+                    <td>Node.js</td>
+                    <td>Scala</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+
+        <fieldset>
+                    <legend>Personal Information</legend>
+                    <!-- First Name -->
+                    <label for="fname">First Name:</label>
+                    <input type="text" placeholder="Norman" required><br><br>
+                    <!-- Last Name -->
+                    <label for="lname">Last Name:</label>
+                    <input type="text" placeholder="Wachira" required><br><br>
+                    <!-- Email -->
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="abc@xyz.com" required><br><br>
+                    <!-- Date of Birth -->
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" required><br><br>
+                    <!-- Gender -->
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender" value="male">Male 
+                        <input type="radio" name="gender" value="female">Female
+                        <input type="radio" name="gender" value="other">Other 
+                        <input type="radio" name="gender" value="Prefer not to say">Prefer not to say
+                        <br><br>
+                    <!-- Country -->
+                        <label for="COuntry">Select Country</label>
+                        <select name="country" id="country" required>
+                            <option value="">Select Country</option>
+                            <option value="ke">Kenya</option>
+                            <option value="ug">Uganda</option>
+                            <option value="tz">Tanzania</option>
+                        </select><br><br>
+        </fieldset>
+    </main>
+    <footer>
+        <p>&copy; 2025 Norman Wachira. All rights reserved</p>
+    </footer>
+</body>
+</html>
